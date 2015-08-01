@@ -11,4 +11,9 @@
 
 
 # 資源：
-   95 課綱已經下載下來放在resource區，其他年度待抓 XD
+  95, 98 課綱已經下載下來放在resource區，其他年度待抓 XD
+
+  - 95歷史課綱下載自：http://www3.cnsh.mlc.edu.tw/~aao/ruels/edurules/95curriculum/A05.doc
+  - 98歷史課綱下載自：http://kc.kshs.kh.edu.tw/93kc/course/98new/05.pdf
+
+  連結是從google或是wikipedia上找到的，教育部網站暫時無法下載
