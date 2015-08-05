@@ -2,15 +2,23 @@
 import sys
 import re
 
+
+previous_line = None
 def line_to_md(line):
+    global previous_line
     if line == '':
         return ''
     elif not line.startswith('    '):
         line = '#' + line
     elif re.search('^( {4,8})[^(\s|\d)]', line):
         line = '#' +  line.replace('    ', '#')
+        if previous_line is not None and re.search('^\d+', previous_line):
+            line = '\n' + line
     else:
         line = line.strip()
+        if re.search('^\d+-\d+', line):
+            line += '\n'
+    previous_line = line
     return line
 
 def txt_to_md(file_name):
